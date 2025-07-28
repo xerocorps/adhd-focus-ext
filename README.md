@@ -16,11 +16,7 @@ Transform lengthy web pages into ADHD-friendly reading experiences directly in t
 
 ## 📸 Screenshots
 
-| Default page | FocusReader Pro enabled |
-| :--: | :--: |
-|  |  |
-
-*Demo images redacted for brevity; swap with real screenshots of your extension in action.*
+![Screenshot.](https://github.com/xerocorps/adhd-focus-ext/blob/main/demo.png)
 
 ## 🚀 Quick Start
 
