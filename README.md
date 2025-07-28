@@ -47,15 +47,15 @@ Any change to `content_script.js`, `style.css`, or HTML files auto-injects into 
 ## 🗂️ Repository Structure
 
 ```
-focusreader-pro/
+adhd-focus-ext/
 ├─ extension/
-│  ├─ content_script.js   # core transformations
-│  ├─ service_worker.js   # badge logic + tab messaging
-│  ├─ manifest.json       # MV3 configuration
-│  ├─ style.css           # tokens + utility classes
-│  ├─ index.html
-│  └─ icon.png            # 16/48/128 px PNGs
-│  └─ app.js              # Vue/React/Vanilla controls (optional)
+├─ content_script.js   # core transformations
+├─ service_worker.js   # badge logic + tab messaging
+├─ manifest.json       # MV3 configuration
+├─ style.css           # tokens + utility classes
+├─ index.html
+├─ icon.png            # 16/48/128 px PNGs
+├─ app.js              # Vue/React/Vanilla controls (optional)
 └─ README.md
 ```
 
