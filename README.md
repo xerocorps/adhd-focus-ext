@@ -23,8 +23,8 @@ Transform lengthy web pages into ADHD-friendly reading experiences directly in t
 ### 1. Clone \& install
 
 ```bash
-git clone https://github.com/your-username/focusreader-pro.git
-cd focusreader-pro
+git clone https://github.com/xerocorps/adhd-focus-ext.git
+cd adhd-focus-ext
 npm install          # only needed if you plan to run the dev server
 ```
 
