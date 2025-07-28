@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusReader Pro Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="py-16 container flex justify-between items-center">
+    <h1>FocusReader Pro Demo</h1>
+    <a href="https://github.com" target="_blank" class="btn btn--primary btn--sm">GitHub Repo</a>
+  </header>
+
+  <main class="container flex flex-col gap-16">
+    <!-- Controls Card -->
+    <section class="card" id="controls">
+      <div class="card__header">
+        <h2 class="mb-8">Settings</h2>
+        <p class="text-secondary">Toggle any feature below and watch the article update instantly.</p>
+      </div>
+      <div class="card__body flex flex-col gap-8">
+        <label class="toggle"><input type="checkbox" id="toggle-global" class="form-control-checkbox" checked> Global ON / OFF</label>
+        <label class="toggle"><input type="checkbox" id="toggle-bionic" class="form-control-checkbox" checked> Bionic Bold</label>
+        <label class="toggle"><input type="checkbox" id="toggle-highlight" class="form-control-checkbox" checked> Alternating Highlight</label>
+        <label class="toggle"><input type="checkbox" id="toggle-beeline" class="form-control-checkbox"> BeeLine Gradient</label>
+        <label class="toggle"><input type="checkbox" id="toggle-ruler" class="form-control-checkbox"> Reading Ruler</label>
+        <label class="toggle"><input type="checkbox" id="toggle-spacing" class="form-control-checkbox"> Extra Sentence Spacing</label>
+        <label class="toggle"><input type="checkbox" id="toggle-focus" class="form-control-checkbox"> Focus Mode (Dim Media)</label>
+      </div>
+    </section>
+
+    <!-- Article -->
+    <article id="content" class="flex flex-col gap-16">
+      <p>
+        Attention Deficit Hyperactivity Disorder, commonly known as ADHD, affects millions of adults around the globe. Reading long-form text can often feel overwhelming, as lines seem to blur together and important details slip away. Digital tools, however, can turn a potentially frustrating experience into a smooth and engaging one.
+      </p>
+      <p>
+        Techniques like <em>bionic reading</em> boldly emphasize the first few letters of words, guiding the eye effortlessly across a page. Color strategies—such as alternating background shades or applying a gentle gradient from line to line—reduce visual monotony, keeping readers anchored. Other supportive methods include widening sentence spacing, introducing a reading ruler that tracks the cursor, and temporarily dimming imagery so that essential paragraphs shine.
+      </p>
+      <p>
+        FocusReader Pro combines these ideas into a single, customizable package. Whether you prefer subtle assistance or a pronounced transformation, the controls above let you experiment in real-time. Explore, adjust, and discover the combination that helps you read with confidence and clarity.
+      </p>
+    </article>
+  </main>
+
+  <!-- Reading Ruler Overlay (injected via JS) -->
+  <div id="fr-ruler" class="hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
